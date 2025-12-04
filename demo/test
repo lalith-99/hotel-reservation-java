@@ -1,0 +1,4 @@
+export MAVEN_OPTS="--add-opens jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED \
+ --add-opens jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED \
+ --add-opens jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED"
+./mvn clean install -DskipTests
